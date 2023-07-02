@@ -8,5 +8,9 @@ public class AdapterMain {
         Print p = new PrintBanner("Hello");
         p.printWeak();
         p.printStrong();
+
+        Adapter.ex02.Print p2 = new Adapter.ex02.PrintBanner("Hello2");
+        p2.printWeak();
+        p2.printStrong();
     }
 }
